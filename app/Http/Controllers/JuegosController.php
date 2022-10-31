@@ -17,6 +17,12 @@ class JuegosController extends Controller
     }
 
     public function store(Request $request){
+        $request->validate([
+            'titulo' => ['required'],
+            'genero' => ['required'],
+            'precio' => ['required'],
+        ]);
+
         $juego= new Juego();
         $juego->titulo=$request->titulo;
         $juego->genero=$request->genero;

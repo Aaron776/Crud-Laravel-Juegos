@@ -1,1 +1,2 @@
 la base de datos usada en este ejemplo se llama crud_juegos
+link del video: https://www.youtube.com/watch?v=aYfRTdaEY3s&list=PL4tyW7PPyukdi0_wm0hK56TCSpfZaZGbD&index=24
